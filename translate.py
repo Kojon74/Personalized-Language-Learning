@@ -4,7 +4,7 @@ class Translate():
     def __init__(self):
         _wordList = ["Apple", "Orange", "Grape", "Pineapple", "Grapefruit"]
 
-    def translateWords(self, wordList, targetLanguage):
+    def translate_words(self, wordList, targetLanguage):
         index = 0
         while index < 10 and index < len(wordList):
             self.sample_translate_text("personalized-language-learning", wordList[index], targetLanguage)
@@ -31,6 +31,6 @@ class Translate():
             print(u"Translated text: {}".format(translation.translated_text))
 
 # Tests
-wordList = ["Apple", "Orange", "Grape", "Pineapple", "Grapefruit"]
+word_list = ["Apple", "Orange", "Grape", "Pineapple", "Grapefruit"]
 # translation = Translate()
 # translation.translateWords(wordList, "fr")
