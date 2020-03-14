@@ -1,0 +1,41 @@
+.navbar {
+  width: 100%;
+  margin-bottom: 0 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  height: 8vh;
+  background: rgba(0, 0, 104, 0.5);
+  position: absolute !important;
+}
+
+.navbar .navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.navbar .navbar-container .URLearning {
+  color: #FF69B4;
+  font-size: 40px;
+  line-height: 10vh;
+  text-decoration: none;
+}
+
+.navbar .navbar-container .link-container {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar .navbar-container .link-container .links {
+  color: #FF69B4;
+  font-size: xx-large;
+  line-height: 10vh;
+  width: auto;
+  text-decoration: none;
+}
+
+.navbar .navbar-container .burger {
+  display: none;
+}

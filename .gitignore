@@ -1,3 +1,7 @@
 GoogleCloudKey_PLL.json
 
 .DS_store
+
+db.sqlite3
+
+settings.py
