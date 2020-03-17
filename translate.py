@@ -43,4 +43,4 @@ class Translate():
 # Tests
 word_list = ["Apple", "Orange", "Grape", "Pineapple", "Grapefruit"]
 translation = Translate()
-translation.translate_words(word_list, "fr")
+translation.translateWords(wordList, "fr")
